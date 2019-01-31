@@ -1,0 +1,21 @@
+
+
+  <div class="but">
+  <div ng-show="error" style="color:red;margin-bottom:5%" class="alert alert-danger">{{errorMessage}}</div>
+  <form class="form" ng-submit="login()">
+    <div class="form-group">
+      <!-- <label>Username</label> -->
+      <input type="text" placeholder="Enter Username" autocomplete="off" class="form-control" name="username" ng-model="loginForm.username" required>
+    </div>
+    <div class="form-group">
+      <br><br>
+        <input type="password" autocomplete="off" placeholder="Enter Password" class="form-control" name="password" ng-model="loginForm.password" required>
+      </div>
+      <div>
+        <button type="submit" ng-disabled="disabled">Login</button></div>
+  </form>
+        <button type="submit"><a href="#/register">Sign Up</a></button>
+   </div>   
+
+
+

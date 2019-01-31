@@ -1,0 +1,122 @@
+html, body, h1, h4, button, table, textarea, span{
+	margin:0;
+	padding: 0;
+
+}
+
+body{
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 2vw;
+
+}
+header, h1{
+	font-size: 5vw;
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	color: black;
+	margin-bottom: 5vw;
+}
+
+.wave{
+	left:0;
+	top:0;
+	max-height:70%;
+	background-image: url("wave.png");
+	position:absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 130%;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+html{
+	background: linear-gradient(to right, rgba(16,120,199,1) 0%, rgba(16,120,199,1) 16%, rgba(10,6,143,1) 67%, rgba(10,6,143,1) 100%);
+	text-align: center;
+	padding-top: 10vw;
+}
+
+input{
+	margin-top:15px;
+	margin-bottom:3px;
+	font-size: 100%;
+	display: inline-block;
+	background:transparent;
+	border:0;
+	outline: 0;
+	/*border-bottom:  1px solid white;*/
+	border-bottom: 2px solid white;
+	/*border-radius:1vw;*/
+	color:white;
+	font-family: Lato, sans-serif;
+	/*font-weight: 30;*/
+}
+@media screen and (max-width: 800px) {
+  button{
+  	width:90%;
+  }
+}
+label{
+	color:white;
+	font-size: 25px;
+	color:grey;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+input[placeholder] {
+   text-align: center;
+   color:white;
+}
+
+button{
+	color: white;
+	width: 20%;
+	font-size: 80%;
+	border: 2px solid white;
+	border-radius:20px;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	padding: 5px;
+
+	/*background-color: #445065;*/
+	background:transparent;
+}
+.but{
+	width:650px;
+	max-height:870px;
+	border:2px solid white;
+	margin-left:25%;
+	border-radius:20px;
+
+	background-color: red;
+	background:transparent;
+}
+button:hover{
+	
+	cursor: pointer;
+	background-color: green;
+}
+button a:hover{
+	border-radius:0px;
+	cursor: pointer;
+
+}
+.home{
+	color: black;
+}
+.home:visited{
+ color:black;
+}
+.home:hover{
+	color:#445065;
+	cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<div>
+  <Br><BR>
+  <div ng-show="error" class="alert alert-danger">{{errorMessage}}</div>
+  <form ng-submit="register()">
+    <div>
+        <Br>
+        <input type="text" autocomplete="off" placeholder="Enter email" name="email" ng-model="registerForm.email" required>
+      </div>
+    
+    <div>
+
+      <br>
+      <input type="text" autocomplete="off" placeholder="Enter Username" name="username" ng-model="registerForm.username" required>
+    </div>
+    <div>
+      <br>
+        <input type="password" autocomplete="off"placeholder="Enter Password" name="password" ng-model="registerForm.password" required>
+      </div>
+      
+      <div>
+        <button type="submit" ng-disabled="disabled">Sign Up</button>
+      </div>
+  </form>
+  <br><BR>
+  <button><a href="#/login" id="reg_login">Log In</a></button>
+</div>
